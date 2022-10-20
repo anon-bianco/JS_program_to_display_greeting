@@ -23,7 +23,7 @@ if (currentTime < 12) {
 }
 
 ReactDOM.render(
-  <h1 style={customStyle}>{hour}</h1>,
+  <h1 className="heading" style={customStyle}>{hour}</h1>,
   document.getElementById("root")
 );
 //Show a single h1 that says "Good morning" if between midnight and 12PM.
